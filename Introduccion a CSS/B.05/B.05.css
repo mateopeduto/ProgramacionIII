@@ -1,0 +1,16 @@
+/* Fondo diferente para cada sección */
+.seccion1 {
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.seccion2 {
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+/* Subrayado (text-decoration) para palabras específicas */
+.destacar {
+    text-decoration: underline;
+}

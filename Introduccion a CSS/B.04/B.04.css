@@ -1,0 +1,61 @@
+header {
+    background-color:#6CACE4;
+    border-radius:0%;
+}
+header h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    color: white;
+}
+header h3 {
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+header hr {
+    height: 5px;
+    background-color: #FFB81C; /* blanco con un poco de transparencia */
+    border: none;
+    border-radius: 2px;
+    margin: 15px auto;
+    width: 80%;
+}
+#NewsHead {
+    background-color: aliceblue;
+}
+
+#NewsHead h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color: black;
+}
+
+#NewsHead h4 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+hr {
+    height: 5px;
+    background-color: #142157; /* blanco con un poco de transparencia */
+    border: none;
+    border-radius: 2px;
+    margin: 15px auto;
+    width: 80%;
+}
+
+p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:large; 
+}
+
+h3 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+
+
+

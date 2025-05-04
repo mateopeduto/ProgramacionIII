@@ -1,0 +1,68 @@
+body {
+    background-color: darkslategray;
+}
+
+header {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    color: white;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+ul li {
+    height: fit-content;
+    width: fit-content;
+    list-style-type: none;
+    background-color: darkgray;
+    color: rgb(2, 49, 24);
+    border-style:solid;
+    border-width: 2px;
+    border-color: azure;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul li:hover {
+    background-color: rgb(2, 49, 24);
+    border-style:dotted;
+    border-width: 2px;
+    border-color: azure;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.Fb {
+    position: absolute;
+    top: 230px;
+    left: 492px;
+}
+.Ig {
+    position: absolute;
+    top: 230px;
+    left: 612px;
+}
+.Ld {
+    position: absolute;
+    top: 230px;
+    left: 747px;
+}
+.Gh {
+    position: absolute;
+    top: 230px;
+    left: 860px;
+}
+a {
+    color: rgb(228, 252, 228);
+    text-decoration: none;
+}
+a:hover {
+    color: azure;
+    text-decoration: none;
+}
