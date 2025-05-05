@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Acumulando Jotasones</title>
+</head>
+<body>
+  <script src="jotasones.js"></script>
+  <script>
+    if (!localStorage.getItem("jotasones")) {
+      localStorage.setItem("jotasones", JSON.stringify(jotasones));
+      alert("Se guardó la colección en localStorage.");
+      console.log("Guardado:", jotasones);
+    } else {
+      // Recupera la colección desde localStorage
+      const recuperados = JSON.parse(localStorage.getItem("jotasones"));
+      alert("Se recuperó la colección del localStorage.");
+      console.log("Recuperado:", recuperados);
+
+      // Agrega un nuevo objeto con ID incrementado
+      const ultimo = recuperados[recuperados.length - 1];
+      const nuevo = {
+        id: ultimo.id + 1,
+        nombre: "Producto " + String.fromCharCode(65 + ultimo.id),
+        precio: ultimo.precio + 50
+      };
+      recuperados.push(nuevo);
+
+      // Actualiza el localStorage con el nuevo array
+      localStorage.setItem("jotasones", JSON.stringify(recuperados));
+
+      alert("Nuevo ID agregado: " + nuevo.id);
+      console.log("Actualizado:", recuperados);
+    }
+  </script>
+</body>
+</html>

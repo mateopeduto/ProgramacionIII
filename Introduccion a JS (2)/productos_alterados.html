@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos Alterados</title>
+</head>
+<body>
+  <script src="productos.js"></script>
+  <script type="text/javascript">
+
+    productos.forEach(producto => {
+      if (producto.precio % 2 !== 0) {
+        producto.moneda = "usd";
+      }
+    });
+
+    productos.forEach(producto => {console.log(producto)});
+
+    productos.forEach(producto => {
+      if (producto.precio % 2 === 0) {
+        delete producto.fechaVencimiento;
+      }
+    });
+
+    productos.forEach(producto => {console.log(producto)});
+  </script>
+</body>
+</html>
